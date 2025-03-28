@@ -1,4 +1,6 @@
+
 // Uses Binary para almacenar y buscar (nombre o SKU)
+
 class BinaryTree<K extends Comparable<K>, V> {
     public class Node {  
         K key;
