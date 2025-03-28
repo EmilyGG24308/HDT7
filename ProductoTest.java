@@ -12,7 +12,7 @@ class ProductoTest {
         Map<String, Integer> sizes = new HashMap<>();
         sizes.put("m", 10);
         sizes.put("l", 5);
-        producto = new Producto("01", "Camiseta", "Camiseta de algodón", sizes);
+        producto = new Producto("01", "Camiseta", "Camiseta deportiva", sizes);
     }
 
     @Test
