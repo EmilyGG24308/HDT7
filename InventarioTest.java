@@ -53,13 +53,13 @@ class InventarioTest {
 
     @Test
     void testListProductosPorSku() {
-        // Simulate listing products using System.out
-        inventario.listProductosPorSku(); // Manually verify output in logs
+        // Simulate listing by SKU
+        inventario.listProductosPorSku(); 
     }
 
     @Test
     void testListProductosPorNombre() {
-        // Simulate listing products using System.out
-        inventario.listProductosPorNombre(); // Manually verify output in logs
+        // Simulate listing by name
+        inventario.listProductosPorNombre(); 
     }
 }
